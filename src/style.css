@@ -1,0 +1,87 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  
+  
+}
+nav h1{
+  width: fit-content;
+  margin-left: 10px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  color: sienna;
+ margin-right: 3%;
+  
+}
+
+nav ul:hover{
+  cursor: pointer;
+  
+}
+
+ul p:hover{
+  color: white;
+}
+
+
+input{
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px
+  
+}
+
+
+.srachbar{
+  padding: 25px;
+  text-align: center;
+}
+
+@media  screen and (max-width:600px) {
+  input{
+      width:400px;
+  }
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+
+}
+.box{
+ border-color: black;
+ border-width: 3px;
+ border-style: solid;
+ display: inline-block;
+ width: 200px;
+ margin: 30px;
+ 
+}
+
+.prodacts{
+  text-align: center;
+}
+
+.box:hover{
+  background-color: black;
+  color: white;
+}
+
+.about{
+  text-align: center;
+}
+
+.one{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
